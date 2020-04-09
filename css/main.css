@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'Asap';
+  font-style: normal;
+  src: local('Asap'), local('Asap-Regular'), url('Asap.woff') format('woff');
+}
+
+body{
+
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #4d4d4d;
+}
+
+.header {
+    position:absolute;
+    background-image:url(header.jpg);
+    height:50px;
+    left:0;
+    top:0;
+    width:100%;
+    text-align: center;
+}
+
+.main{
+    margin-top: 60px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:350px;
+    text-align:center;   
+}
+
+h1{
+    font-family: 'Asap'; 
+    color: white;
+    margin: 5px;
+}
+
+h2{
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;  
+    color: #787878;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+div{
+    margin-bottom: 20px;
+}
+
+.divPad{
+    padding:10px;
+}    
+
+.bgOrange{
+   background-color:  #efd0ce;
+}
+
+.bgGray{
+    background-color: #e3e3e3;
+}
+
+.smallText table{
+    font-size:14px;
+}
+
+.center{
+    text-align: center;   
+}
+
+table{
+    width: 100%;   
+}
+
+.left th, td{
+    text-align: left;   
+}
+
+.votesCell{
+    color: #828282;
+    width: 15%;
+}
+
+.emptyCell{
+    background-color: #cbcbcb;
+}
+
+.hiRow{
+    height: 35px;
+}
+
+.minMax{
+    width: 15px;  
+}
+
+.currRoundCell{
+    color: #4d4d4d;
+       
+}
+.error{
+    color: red;
+    font-weight: 500;
+    
+}
+
+.roundStatus{
+    font-size: 18px;
+}
+
+#sessionIdField{
+    display:none;
+}
+
+.minWidth{
+    width:240px;
+}
+
+.knop{
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+    padding: 5px 30px 6px;
+    margin: 5px;
+
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+
+    color: #fef4e9;
+
+    background: #ef483e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ef483e), to(#ef483e));
+    background: -moz-linear-gradient(top,  #ef483e,  #ef483e);
+}
+
+input{
+    display: inline-block;
+    padding: 5px 10px 6px;
+    margin: 5px;
+    color: #4d4d4d;
+    text-decoration: none;
+    line-height: 1;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    position: relative;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #c5c5c5;
+    font-size:14px;
+}
+
+.knop:hover{
+    text-decoration: none;
+}
