@@ -1,4 +1,6 @@
-
+<?php
+include_once("include.php");
+$setupQuery = "
 # Dump of table session
 # ------------------------------------------------------------
 
@@ -50,5 +52,8 @@ CREATE TABLE `vote` (
   KEY `index_foreignkey_vote_user` (`user_id`),
   CONSTRAINT `cons_fk_vote_session_id_id` FOREIGN KEY (`session_id`) REFERENCES `session` (`id`) ON DELETE SET NULL ON UPDATE SET NULL,
   CONSTRAINT `cons_fk_vote_user_id_id` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE SET NULL ON UPDATE SET NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;";
+if(R::exec($setupQuery) == 0)
+  echo "Tabellen aangemaakt. Je moet databaseSetup.php nu verwijderen.";
+?>
 
