@@ -5,6 +5,9 @@ Handig voor als het hele team thuiswerkt in verband met een of ander virus bijvo
 
 [Gebruikers handleiding](handleiding.html)
 
+## Beter alternatief
+Eigenlijk kun je beter dit gebruiken: https://planningpokeronline.com/
+
 
 ## Installatie
 Standaard *AMP server zou moeten werken.
